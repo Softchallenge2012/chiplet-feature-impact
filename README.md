@@ -4,6 +4,8 @@ Die Dimensions: Includes width and height measurements for 8 dies (G0–G3 and H
 
 Feature Impact: Highlights which specific dimension features drive the most impact. Notably, G0_height shows the highest impact value at 0.3078, followed by H2_height (0.1416) and G1_height (0.1105), while other features like H1_width and H3_width show minimal impact near 0.0003.
 
-How to run
+![UI Preview](ui.png)
+
+**How to run**
 
 python app.py
