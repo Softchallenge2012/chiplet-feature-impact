@@ -1,0 +1,42 @@
+{
+  "random_layout": {
+    "random_seed": 20261018,
+    "sampling": "independent additive Normal(0, 1) mm noise per placement coordinate; reject samples that violate layout constraints",
+    "attempt": 41,
+    "placements_mm": {
+      "G0": [
+        6.509459,
+        2.441674
+      ],
+      "H0": [
+        19.853359,
+        3.130169
+      ],
+      "G1": [
+        33.70339,
+        2.328755
+      ],
+      "H1": [
+        34.649221,
+        14.705307
+      ],
+      "G2": [
+        33.296038,
+        27.635486
+      ],
+      "H2": [
+        20.354667,
+        27.208201
+      ],
+      "G3": [
+        6.263209,
+        27.16676
+      ],
+      "H3": [
+        8.755039,
+        15.225551
+      ]
+    },
+    "weighted_route_gb_s_mm": 11998.8
+  }
+}

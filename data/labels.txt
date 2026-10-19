@@ -1,0 +1,6 @@
+filename, class
+heat_analysis_v1.json, 1
+heat_analysis_v2.json, 0
+heat_analysis_v3.json, 1
+heat_analysis_v4.json, 1
+heat_analysis_v5.json, 0

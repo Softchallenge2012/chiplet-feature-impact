@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Layout Config Impact Explorer</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg: #f3f6fb;
+      --panel: #ffffff;
+      --ink: #1b2430;
+      --muted: #5f6c7b;
+      --line: #d7e0ea;
+      --accent: #0f766e;
+      --accent-soft: #99f6e4;
+    }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      background: radial-gradient(circle at 20% 0%, #ffffff 0%, var(--bg) 60%);
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 24px auto;
+      padding: 0 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 8px 20px rgba(14, 22, 35, 0.06);
+    }
+    h1 {
+      font-size: 1.1rem;
+      margin: 0 0 12px;
+    }
+    label {
+      display: block;
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+      background: #fff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .chart-wrap {
+      height: 520px;
+    }
+    .error {
+      color: #b91c1c;
+      margin-top: 8px;
+      font-size: 0.9rem;
+      min-height: 20px;
+    }
+    @media (max-width: 900px) {
+      .wrap {
+        grid-template-columns: 1fr;
+      }
+      .chart-wrap {
+        height: 400px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>Layout Config Viewer</h1>
+      <label for="fileSelect">Select JSON file</label>
+      <select id="fileSelect">
+        {% for file in files %}
+        <option value="{{ file }}">{{ file }}</option>
+        {% endfor %}
+      </select>
+
+      <table>
+        <thead>
+          <tr><th>Die</th><th>width</th><th>height</th></tr>
+        </thead>
+        <tbody id="layoutBody"></tbody>
+      </table>
+      <div class="error" id="error"></div>
+    </section>
+
+    <section class="card">
+      <h1>Feature Impact Values</h1>
+      <div class="chart-wrap">
+        <canvas id="impactChart"></canvas>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const fileSelect = document.getElementById('fileSelect');
+    const layoutBody = document.getElementById('layoutBody');
+    const errorBox = document.getElementById('error');
+
+    const valueLabelPlugin = {
+      id: 'valueLabelPlugin',
+      afterDatasetsDraw(chart) {
+        const { ctx } = chart;
+        const meta = chart.getDatasetMeta(0);
+        const data = chart.data.datasets[0].data || [];
+        ctx.save();
+        ctx.fillStyle = '#1b2430';
+        ctx.font = '12px "Avenir Next", "Segoe UI", sans-serif';
+        ctx.textBaseline = 'middle';
+
+        meta.data.forEach((bar, index) => {
+          const raw = data[index];
+          const value = Number(raw);
+          if (!Number.isFinite(value)) {
+            return;
+          }
+          const label = value.toFixed(4);
+          ctx.textAlign = 'left';
+          ctx.fillText(label, bar.x + 6, bar.y);
+        });
+
+        ctx.restore();
+      }
+    };
+
+    const ctx = document.getElementById('impactChart').getContext('2d');
+    const impactChart = new Chart(ctx, {
+      type: 'bar',
+      plugins: [valueLabelPlugin],
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Impact',
+          data: [],
+          backgroundColor: 'rgba(15, 118, 110, 0.65)',
+          borderColor: 'rgba(15, 118, 110, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+    async function loadData(filename) {
+      errorBox.textContent = '';
+      try {
+        const res = await fetch(`/api/layout/${filename}`);
+        const payload = await res.json();
+        if (!res.ok) {
+          throw new Error(payload.error || 'Failed to load data');
+        }
+
+        const entries = Object.entries(payload.layout_config).sort((a, b) => a[0].localeCompare(b[0]));
+        layoutBody.innerHTML = entries
+          .map(([die, coords]) => `<tr><td>${die}</td><td>${coords[0]}</td><td>${coords[1]}</td></tr>`)
+          .join('');
+
+        impactChart.data.labels = payload.features;
+        impactChart.data.datasets[0].data = payload.impact_values;
+        impactChart.update();
+      } catch (err) {
+        errorBox.textContent = err.message;
+      }
+    }
+
+    fileSelect.addEventListener('change', () => loadData(fileSelect.value));
+    loadData(fileSelect.value);
+  </script>
+</body>
+</html>

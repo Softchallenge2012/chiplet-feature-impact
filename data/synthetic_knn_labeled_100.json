@@ -1,0 +1,7116 @@
+{
+  "metadata": {
+    "num_samples": 100,
+    "seed_start": 20261018,
+    "knn_n_neighbors": 1,
+    "reference_files": [
+      "heat_analysis_v1.json",
+      "heat_analysis_v2.json",
+      "heat_analysis_v3.json",
+      "heat_analysis_v4.json",
+      "heat_analysis_v5.json"
+    ]
+  },
+  "records": [
+    {
+      "sample_id": 1,
+      "seed": 20261018,
+      "layout_config": {
+        "G0": [
+          6.190322,
+          3.239096
+        ],
+        "H0": [
+          21.441886,
+          2.76095
+        ],
+        "G1": [
+          34.810491,
+          2.499542
+        ],
+        "H1": [
+          34.445934,
+          16.235877
+        ],
+        "G2": [
+          35.003397,
+          28.123651
+        ],
+        "H2": [
+          21.379533,
+          27.349322
+        ],
+        "G3": [
+          7.407738,
+          27.190819
+        ],
+        "H3": [
+          7.289094,
+          15.560169
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v2.json",
+        "label": 0,
+        "distance": 0.0
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 0.0
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 5.531923642010469
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 5.70907896259797
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 6.428165086017223
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.836133533712539
+        }
+      ]
+    },
+    {
+      "sample_id": 2,
+      "seed": 20261019,
+      "layout_config": {
+        "G0": [
+          4.718222,
+          2.228071
+        ],
+        "H0": [
+          19.979227,
+          2.763861
+        ],
+        "G1": [
+          33.480413,
+          3.337529
+        ],
+        "H1": [
+          33.794695,
+          15.870932
+        ],
+        "G2": [
+          32.780588,
+          27.695614
+        ],
+        "H2": [
+          19.451422,
+          26.127124
+        ],
+        "G3": [
+          6.289276,
+          25.681504
+        ],
+        "H3": [
+          8.370054,
+          13.923737
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 10.070976858421107
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 10.070976858421107
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.936063187456154
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 12.309274836990804
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.87196763962513
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 13.060039371818908
+        }
+      ]
+    },
+    {
+      "sample_id": 3,
+      "seed": 20261020,
+      "layout_config": {
+        "G0": [
+          6.050407,
+          2.5035
+        ],
+        "H0": [
+          20.778792,
+          3.811972
+        ],
+        "G1": [
+          33.964303,
+          2.915231
+        ],
+        "H1": [
+          35.097156,
+          14.883651
+        ],
+        "G2": [
+          32.772989,
+          27.402047
+        ],
+        "H2": [
+          20.975411,
+          27.148211
+        ],
+        "G3": [
+          7.100724,
+          26.326178
+        ],
+        "H3": [
+          7.142936,
+          14.299734
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.184187025007387
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.184187025007387
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.856880562756396
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.674407057593116
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 10.114761436677354
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.737293116468782
+        }
+      ]
+    },
+    {
+      "sample_id": 4,
+      "seed": 20261021,
+      "layout_config": {
+        "G0": [
+          6.858885,
+          2.32807
+        ],
+        "H0": [
+          20.279972,
+          4.084018
+        ],
+        "G1": [
+          33.086537,
+          2.2335
+        ],
+        "H1": [
+          31.996007,
+          14.474643
+        ],
+        "G2": [
+          32.833179,
+          26.335334
+        ],
+        "H2": [
+          21.026057,
+          27.724726
+        ],
+        "G3": [
+          7.579831,
+          27.092065
+        ],
+        "H3": [
+          9.215757,
+          15.448083
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v3.json",
+        "label": 1,
+        "distance": 7.748542528850646
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.748542528850646
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.452308666119757
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.735778281037573
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.131090458832745
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.477874187124867
+        }
+      ]
+    },
+    {
+      "sample_id": 5,
+      "seed": 20261022,
+      "layout_config": {
+        "G0": [
+          7.511245,
+          2.588082
+        ],
+        "H0": [
+          20.852105,
+          3.368643
+        ],
+        "G1": [
+          34.901979,
+          2.555923
+        ],
+        "H1": [
+          35.787307,
+          16.266528
+        ],
+        "G2": [
+          33.971436,
+          28.146862
+        ],
+        "H2": [
+          19.349529,
+          28.839536
+        ],
+        "G3": [
+          5.475526,
+          26.752423
+        ],
+        "H3": [
+          8.129747,
+          14.84503
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.846479581063686
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.846479581063686
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.3901121332475
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.458719912055235
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.921904830697835
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.971536092596203
+        }
+      ]
+    },
+    {
+      "sample_id": 6,
+      "seed": 20261023,
+      "layout_config": {
+        "G0": [
+          6.355845,
+          1.355362
+        ],
+        "H0": [
+          19.76953,
+          2.247106
+        ],
+        "G1": [
+          34.844833,
+          1.251976
+        ],
+        "H1": [
+          34.803788,
+          15.04185
+        ],
+        "G2": [
+          32.203236,
+          28.191739
+        ],
+        "H2": [
+          20.358739,
+          27.275699
+        ],
+        "G3": [
+          5.954723,
+          26.641234
+        ],
+        "H3": [
+          7.039252,
+          14.72857
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.82823312447972
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.82823312447972
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.910195610441328
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.393071711319024
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.561333946201957
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.243702300231806
+        }
+      ]
+    },
+    {
+      "sample_id": 7,
+      "seed": 20261024,
+      "layout_config": {
+        "G0": [
+          5.269809,
+          2.976311
+        ],
+        "H0": [
+          19.660465,
+          2.688348
+        ],
+        "G1": [
+          34.047485,
+          3.02441
+        ],
+        "H1": [
+          35.303423,
+          16.423362
+        ],
+        "G2": [
+          33.419757,
+          27.879805
+        ],
+        "H2": [
+          21.172672,
+          26.219979
+        ],
+        "G3": [
+          6.784216,
+          27.398538
+        ],
+        "H3": [
+          6.949152,
+          14.725573
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.891127805823557
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.891127805823557
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.575304883490699
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.785750285294593
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.899952169916238
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.992369130603993
+        }
+      ]
+    },
+    {
+      "sample_id": 8,
+      "seed": 20261025,
+      "layout_config": {
+        "G0": [
+          7.348566,
+          3.304387
+        ],
+        "H0": [
+          20.298658,
+          3.807567
+        ],
+        "G1": [
+          33.603256,
+          2.42253
+        ],
+        "H1": [
+          33.988231,
+          14.217964
+        ],
+        "G2": [
+          32.407796,
+          26.970363
+        ],
+        "H2": [
+          20.691586,
+          27.068247
+        ],
+        "G3": [
+          7.02112,
+          28.37118
+        ],
+        "H3": [
+          8.252567,
+          15.548962
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.519705639883453
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.519705639883453
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 6.44897152636764
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.202161631222649
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.798306401712773
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.033900520896692
+        }
+      ]
+    },
+    {
+      "sample_id": 9,
+      "seed": 20261026,
+      "layout_config": {
+        "G0": [
+          6.675615,
+          2.074433
+        ],
+        "H0": [
+          19.348907,
+          3.967729
+        ],
+        "G1": [
+          32.930827,
+          2.559676
+        ],
+        "H1": [
+          34.598905,
+          14.422596
+        ],
+        "G2": [
+          33.440156,
+          27.432042
+        ],
+        "H2": [
+          21.422153,
+          26.421357
+        ],
+        "G3": [
+          6.388555,
+          27.467781
+        ],
+        "H3": [
+          8.487791,
+          15.317224
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 3.8930186501317334
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 3.8930186501317334
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.475080333508576
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.18678464829476
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.583900271569885
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.595566634972844
+        }
+      ]
+    },
+    {
+      "sample_id": 10,
+      "seed": 20261027,
+      "layout_config": {
+        "G0": [
+          6.95972,
+          2.669698
+        ],
+        "H0": [
+          20.050035,
+          2.119242
+        ],
+        "G1": [
+          32.654462,
+          1.649312
+        ],
+        "H1": [
+          33.687446,
+          15.220463
+        ],
+        "G2": [
+          34.307754,
+          27.776029
+        ],
+        "H2": [
+          20.313585,
+          28.107454
+        ],
+        "G3": [
+          6.150224,
+          26.90882
+        ],
+        "H3": [
+          8.653477,
+          15.401222
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.471231834485316
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.471231834485316
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 6.290775858024804
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 6.781268657439382
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 6.828792821462356
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.265180789471415
+        }
+      ]
+    },
+    {
+      "sample_id": 11,
+      "seed": 20261028,
+      "layout_config": {
+        "G0": [
+          7.059272,
+          2.721256
+        ],
+        "H0": [
+          19.791541,
+          2.608546
+        ],
+        "G1": [
+          34.689292,
+          2.318754
+        ],
+        "H1": [
+          33.022844,
+          15.416827
+        ],
+        "G2": [
+          33.805735,
+          29.022978
+        ],
+        "H2": [
+          19.759363,
+          28.71193
+        ],
+        "G3": [
+          6.728018,
+          27.597549
+        ],
+        "H3": [
+          6.517321,
+          14.825554
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v3.json",
+        "label": 1,
+        "distance": 7.651230569318137
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.651230569318137
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.921785186713295
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.117887120386078
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.461636858056787
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.530739587939708
+        }
+      ]
+    },
+    {
+      "sample_id": 12,
+      "seed": 20261029,
+      "layout_config": {
+        "G0": [
+          5.895457,
+          2.95242
+        ],
+        "H0": [
+          19.63171,
+          2.803591
+        ],
+        "G1": [
+          33.804652,
+          2.576295
+        ],
+        "H1": [
+          35.325838,
+          15.054843
+        ],
+        "G2": [
+          33.077673,
+          26.442433
+        ],
+        "H2": [
+          21.038957,
+          26.621869
+        ],
+        "G3": [
+          7.56301,
+          27.223461
+        ],
+        "H3": [
+          7.865514,
+          15.797568
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.415551601865534
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.415551601865534
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.717993251088235
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.407850241309935
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.585110959353367
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.530618456142559
+        }
+      ]
+    },
+    {
+      "sample_id": 13,
+      "seed": 20261030,
+      "layout_config": {
+        "G0": [
+          5.027001,
+          2.08801
+        ],
+        "H0": [
+          20.490078,
+          2.688463
+        ],
+        "G1": [
+          33.618687,
+          2.10341
+        ],
+        "H1": [
+          34.005412,
+          14.918386
+        ],
+        "G2": [
+          33.498001,
+          26.893356
+        ],
+        "H2": [
+          19.598434,
+          26.217154
+        ],
+        "G3": [
+          5.876688,
+          27.364141
+        ],
+        "H3": [
+          7.58673,
+          14.079713
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.436780327840003
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.436780327840003
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.75228954175444
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.017241437532485
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 12.19861456906645
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.706420980653743
+        }
+      ]
+    },
+    {
+      "sample_id": 14,
+      "seed": 20261031,
+      "layout_config": {
+        "G0": [
+          6.958415,
+          2.480689
+        ],
+        "H0": [
+          20.853238,
+          2.96131
+        ],
+        "G1": [
+          34.372576,
+          2.326668
+        ],
+        "H1": [
+          36.631377,
+          15.122257
+        ],
+        "G2": [
+          32.081342,
+          27.035591
+        ],
+        "H2": [
+          20.24075,
+          26.927354
+        ],
+        "G3": [
+          7.113825,
+          28.00703
+        ],
+        "H3": [
+          7.374532,
+          15.388114
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.338698192538977
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.338698192538977
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.843323699453284
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.160326049881734
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.272458564593478
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.656902999574255
+        }
+      ]
+    },
+    {
+      "sample_id": 15,
+      "seed": 20261032,
+      "layout_config": {
+        "G0": [
+          6.726518,
+          1.988231
+        ],
+        "H0": [
+          19.366614,
+          2.517434
+        ],
+        "G1": [
+          34.42666,
+          1.938294
+        ],
+        "H1": [
+          34.992691,
+          14.577825
+        ],
+        "G2": [
+          33.885821,
+          28.207302
+        ],
+        "H2": [
+          20.73025,
+          27.08868
+        ],
+        "G3": [
+          7.971341,
+          27.280345
+        ],
+        "H3": [
+          8.693359,
+          14.421693
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.562079116139362
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.562079116139362
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.705570399709761
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.69823103369421
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 10.033542385491064
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.585462848358402
+        }
+      ]
+    },
+    {
+      "sample_id": 16,
+      "seed": 20261033,
+      "layout_config": {
+        "G0": [
+          4.198563,
+          1.765271
+        ],
+        "H0": [
+          20.191739,
+          2.225307
+        ],
+        "G1": [
+          32.814455,
+          3.43744
+        ],
+        "H1": [
+          34.525777,
+          15.253676
+        ],
+        "G2": [
+          33.513572,
+          27.646456
+        ],
+        "H2": [
+          19.974538,
+          28.38076
+        ],
+        "G3": [
+          5.678909,
+          26.747804
+        ],
+        "H3": [
+          6.546718,
+          14.057919
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 10.266104396980113
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 10.266104396980113
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 12.063913045750809
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.218140986737767
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 12.519069431045075
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 12.964856510640152
+        }
+      ]
+    },
+    {
+      "sample_id": 17,
+      "seed": 20261034,
+      "layout_config": {
+        "G0": [
+          5.900345,
+          1.482425
+        ],
+        "H0": [
+          19.317943,
+          2.176758
+        ],
+        "G1": [
+          31.941134,
+          1.8674
+        ],
+        "H1": [
+          34.724242,
+          13.994082
+        ],
+        "G2": [
+          33.254388,
+          26.893328
+        ],
+        "H2": [
+          20.001966,
+          27.39594
+        ],
+        "G3": [
+          7.137068,
+          27.384067
+        ],
+        "H3": [
+          7.6416,
+          15.787324
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.0627888416109394
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.0627888416109394
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.81391138261325
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.943496889749694
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.566858952349797
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 10.797160719271558
+        }
+      ]
+    },
+    {
+      "sample_id": 18,
+      "seed": 20261035,
+      "layout_config": {
+        "G0": [
+          5.338858,
+          2.641047
+        ],
+        "H0": [
+          18.806987,
+          2.56909
+        ],
+        "G1": [
+          34.398651,
+          2.30683
+        ],
+        "H1": [
+          34.772431,
+          14.570744
+        ],
+        "G2": [
+          33.215078,
+          27.087632
+        ],
+        "H2": [
+          20.782337,
+          28.716629
+        ],
+        "G3": [
+          6.961782,
+          28.157975
+        ],
+        "H3": [
+          7.362553,
+          15.032161
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.275556236751073
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.275556236751073
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.69686310944889
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.878635506980704
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.315639711844375
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.909666919115045
+        }
+      ]
+    },
+    {
+      "sample_id": 19,
+      "seed": 20261036,
+      "layout_config": {
+        "G0": [
+          6.526282,
+          4.284858
+        ],
+        "H0": [
+          19.118976,
+          3.186741
+        ],
+        "G1": [
+          33.403901,
+          2.467842
+        ],
+        "H1": [
+          34.514041,
+          14.337848
+        ],
+        "G2": [
+          34.801257,
+          28.522364
+        ],
+        "H2": [
+          22.859245,
+          26.572736
+        ],
+        "G3": [
+          6.915478,
+          27.340147
+        ],
+        "H3": [
+          8.378553,
+          16.015122
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v2.json",
+        "label": 0,
+        "distance": 7.80226686103237
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.80226686103237
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.786315442554157
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 9.93556070505066
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.9632325986273
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.06024106095669
+        }
+      ]
+    },
+    {
+      "sample_id": 20,
+      "seed": 20261037,
+      "layout_config": {
+        "G0": [
+          6.134783,
+          1.756867
+        ],
+        "H0": [
+          21.017151,
+          2.2497
+        ],
+        "G1": [
+          32.713899,
+          1.324734
+        ],
+        "H1": [
+          33.609181,
+          13.689039
+        ],
+        "G2": [
+          34.309114,
+          26.365766
+        ],
+        "H2": [
+          21.282985,
+          27.480268
+        ],
+        "G3": [
+          7.223147,
+          27.470065
+        ],
+        "H3": [
+          8.640793,
+          15.004732
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.010552537680637
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.010552537680637
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.746222946682336
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.947279195005482
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.269844845652571
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 11.406043154006593
+        }
+      ]
+    },
+    {
+      "sample_id": 21,
+      "seed": 20261038,
+      "layout_config": {
+        "G0": [
+          5.976325,
+          2.470262
+        ],
+        "H0": [
+          18.837117,
+          2.159229
+        ],
+        "G1": [
+          33.299136,
+          1.54027
+        ],
+        "H1": [
+          34.305472,
+          15.107215
+        ],
+        "G2": [
+          33.329426,
+          26.872185
+        ],
+        "H2": [
+          19.246074,
+          26.434014
+        ],
+        "G3": [
+          5.787476,
+          26.706657
+        ],
+        "H3": [
+          6.151218,
+          15.334291
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.599264444137277
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.599264444137277
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.983055158813722
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.624799863679515
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.317469325332635
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.395290194170894
+        }
+      ]
+    },
+    {
+      "sample_id": 22,
+      "seed": 20261039,
+      "layout_config": {
+        "G0": [
+          5.470899,
+          2.269405
+        ],
+        "H0": [
+          19.741097,
+          3.005078
+        ],
+        "G1": [
+          34.48176,
+          1.417602
+        ],
+        "H1": [
+          34.937752,
+          14.12268
+        ],
+        "G2": [
+          34.477266,
+          25.853678
+        ],
+        "H2": [
+          20.911808,
+          26.542784
+        ],
+        "G3": [
+          5.931239,
+          27.564793
+        ],
+        "H3": [
+          7.096929,
+          15.89995
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.651449778865475
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.651449778865475
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.61082994884612
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 10.634987096968434
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 12.17543891700439
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.521266275410976
+        }
+      ]
+    },
+    {
+      "sample_id": 23,
+      "seed": 20261040,
+      "layout_config": {
+        "G0": [
+          6.45558,
+          3.659249
+        ],
+        "H0": [
+          20.972403,
+          4.862929
+        ],
+        "G1": [
+          34.189936,
+          2.135269
+        ],
+        "H1": [
+          33.852495,
+          14.277554
+        ],
+        "G2": [
+          33.132348,
+          27.065423
+        ],
+        "H2": [
+          20.640494,
+          25.492387
+        ],
+        "G3": [
+          6.637205,
+          27.096148
+        ],
+        "H3": [
+          7.712714,
+          15.339463
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.016887178465272
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.016887178465272
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.492844109456206
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.174479822571094
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.037445246775654
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 11.090025525679335
+        }
+      ]
+    },
+    {
+      "sample_id": 24,
+      "seed": 20261041,
+      "layout_config": {
+        "G0": [
+          7.510155,
+          2.880567
+        ],
+        "H0": [
+          20.599141,
+          1.454967
+        ],
+        "G1": [
+          34.886979,
+          2.121817
+        ],
+        "H1": [
+          34.032405,
+          15.219895
+        ],
+        "G2": [
+          32.61611,
+          27.114305
+        ],
+        "H2": [
+          20.083439,
+          26.865438
+        ],
+        "G3": [
+          4.868635,
+          27.007142
+        ],
+        "H3": [
+          7.277774,
+          15.539499
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.647251319632892
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.647251319632892
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.961716903760253
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.452882903584364
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.643813462257045
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.675726446033615
+        }
+      ]
+    },
+    {
+      "sample_id": 25,
+      "seed": 20261042,
+      "layout_config": {
+        "G0": [
+          7.512949,
+          1.630344
+        ],
+        "H0": [
+          20.176011,
+          2.359652
+        ],
+        "G1": [
+          34.808265,
+          2.441059
+        ],
+        "H1": [
+          35.580389,
+          15.420187
+        ],
+        "G2": [
+          33.847473,
+          26.783386
+        ],
+        "H2": [
+          19.47509,
+          27.888376
+        ],
+        "G3": [
+          6.512864,
+          27.924567
+        ],
+        "H3": [
+          6.709596,
+          15.292809
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.497589632677965
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.497589632677965
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.885619581854712
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.203261805947097
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.32784630304651
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.3614681773814
+        }
+      ]
+    },
+    {
+      "sample_id": 26,
+      "seed": 20261043,
+      "layout_config": {
+        "G0": [
+          7.989999,
+          1.703492
+        ],
+        "H0": [
+          21.493078,
+          4.221953
+        ],
+        "G1": [
+          34.871374,
+          3.594579
+        ],
+        "H1": [
+          34.868729,
+          15.331995
+        ],
+        "G2": [
+          33.302425,
+          27.36913
+        ],
+        "H2": [
+          20.787681,
+          26.289264
+        ],
+        "G3": [
+          6.460768,
+          27.598717
+        ],
+        "H3": [
+          7.085073,
+          15.787768
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.582752996262078
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.582752996262078
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.588480735387536
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.997058425140835
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.179774398263158
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.611149127200541
+        }
+      ]
+    },
+    {
+      "sample_id": 27,
+      "seed": 20261044,
+      "layout_config": {
+        "G0": [
+          7.678508,
+          1.891584
+        ],
+        "H0": [
+          20.227786,
+          2.384348
+        ],
+        "G1": [
+          33.267111,
+          1.906556
+        ],
+        "H1": [
+          33.9591,
+          14.455915
+        ],
+        "G2": [
+          34.050216,
+          26.429822
+        ],
+        "H2": [
+          19.991343,
+          26.62121
+        ],
+        "G3": [
+          6.483797,
+          26.592135
+        ],
+        "H3": [
+          8.420821,
+          14.077587
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.979131259792906
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.979131259792906
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.351617847180345
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.13512104281018
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 13.012011824697852
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 13.059836226896149
+        }
+      ]
+    },
+    {
+      "sample_id": 28,
+      "seed": 20261045,
+      "layout_config": {
+        "G0": [
+          5.054672,
+          2.679288
+        ],
+        "H0": [
+          20.200373,
+          1.494211
+        ],
+        "G1": [
+          34.403199,
+          2.787816
+        ],
+        "H1": [
+          35.119992,
+          15.121409
+        ],
+        "G2": [
+          34.065246,
+          27.442995
+        ],
+        "H2": [
+          20.367513,
+          27.571558
+        ],
+        "G3": [
+          5.954573,
+          25.976699
+        ],
+        "H3": [
+          7.653768,
+          14.762718
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.347061666969108
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.347061666969108
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.05873796155172
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.089171451046015
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.21723058402757
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.285022780587086
+        }
+      ]
+    },
+    {
+      "sample_id": 29,
+      "seed": 20261046,
+      "layout_config": {
+        "G0": [
+          7.705801,
+          3.862125
+        ],
+        "H0": [
+          20.504078,
+          4.082747
+        ],
+        "G1": [
+          33.389289,
+          2.795268
+        ],
+        "H1": [
+          34.619234,
+          15.180341
+        ],
+        "G2": [
+          32.957447,
+          26.839893
+        ],
+        "H2": [
+          20.045346,
+          27.898165
+        ],
+        "G3": [
+          6.473048,
+          27.406575
+        ],
+        "H3": [
+          7.936887,
+          15.545132
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.228953077044303
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.228953077044303
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.444405477038843
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.5921941993264666
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.930834309879817
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.216841961627434
+        }
+      ]
+    },
+    {
+      "sample_id": 30,
+      "seed": 20261047,
+      "layout_config": {
+        "G0": [
+          6.281899,
+          2.348955
+        ],
+        "H0": [
+          20.611996,
+          3.183258
+        ],
+        "G1": [
+          35.110088,
+          1.875364
+        ],
+        "H1": [
+          33.605117,
+          13.49525
+        ],
+        "G2": [
+          32.782067,
+          28.034849
+        ],
+        "H2": [
+          21.009487,
+          28.346326
+        ],
+        "G3": [
+          6.906143,
+          28.430897
+        ],
+        "H3": [
+          8.436929,
+          15.152774
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.5111853320744775
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.5111853320744775
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 6.969892902481688
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.035214462284882
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.431378160293221
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.463114541243304
+        }
+      ]
+    },
+    {
+      "sample_id": 31,
+      "seed": 20261048,
+      "layout_config": {
+        "G0": [
+          6.666957,
+          1.336989
+        ],
+        "H0": [
+          19.460358,
+          3.416474
+        ],
+        "G1": [
+          32.310266,
+          2.276672
+        ],
+        "H1": [
+          34.567545,
+          14.163037
+        ],
+        "G2": [
+          32.002366,
+          26.015375
+        ],
+        "H2": [
+          19.510901,
+          27.628311
+        ],
+        "G3": [
+          5.817351,
+          26.070175
+        ],
+        "H3": [
+          7.107062,
+          14.835634
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.004822129489542
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.004822129489542
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.862181334499203
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.304510453842186
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 12.90137845770993
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 13.425897874774156
+        }
+      ]
+    },
+    {
+      "sample_id": 32,
+      "seed": 20261049,
+      "layout_config": {
+        "G0": [
+          5.320089,
+          2.509085
+        ],
+        "H0": [
+          19.052845,
+          2.456094
+        ],
+        "G1": [
+          34.078064,
+          3.269413
+        ],
+        "H1": [
+          34.438195,
+          14.87369
+        ],
+        "G2": [
+          32.528873,
+          28.804112
+        ],
+        "H2": [
+          19.944697,
+          28.605551
+        ],
+        "G3": [
+          7.11953,
+          26.946512
+        ],
+        "H3": [
+          7.162935,
+          14.805462
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.486214964036098
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.486214964036098
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.13416810588558
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.375214338116525
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.406548452387097
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.688073350611914
+        }
+      ]
+    },
+    {
+      "sample_id": 33,
+      "seed": 20261050,
+      "layout_config": {
+        "G0": [
+          6.112764,
+          1.638399
+        ],
+        "H0": [
+          19.052131,
+          3.601959
+        ],
+        "G1": [
+          33.238076,
+          2.136483
+        ],
+        "H1": [
+          34.672809,
+          14.40772
+        ],
+        "G2": [
+          34.189667,
+          29.189238
+        ],
+        "H2": [
+          20.909345,
+          27.711769
+        ],
+        "G3": [
+          6.887176,
+          26.818068
+        ],
+        "H3": [
+          7.488101,
+          14.20773
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.948773686297319
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.948773686297319
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.238671965122512
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.781936494176454
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 12.119268183928531
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.30590290783716
+        }
+      ]
+    },
+    {
+      "sample_id": 34,
+      "seed": 20261051,
+      "layout_config": {
+        "G0": [
+          6.371061,
+          1.741029
+        ],
+        "H0": [
+          20.895711,
+          3.093331
+        ],
+        "G1": [
+          32.546308,
+          2.241408
+        ],
+        "H1": [
+          34.524768,
+          14.50224
+        ],
+        "G2": [
+          33.710402,
+          27.320232
+        ],
+        "H2": [
+          20.865831,
+          27.874038
+        ],
+        "G3": [
+          7.271724,
+          26.288407
+        ],
+        "H3": [
+          9.512125,
+          14.85439
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 4.931851250284401
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 4.931851250284401
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.27225400414096
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.561068292620924
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.942874224901262
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.430947368166223
+        }
+      ]
+    },
+    {
+      "sample_id": 35,
+      "seed": 20261052,
+      "layout_config": {
+        "G0": [
+          7.420571,
+          3.079918
+        ],
+        "H0": [
+          21.24109,
+          2.556093
+        ],
+        "G1": [
+          34.517708,
+          1.589687
+        ],
+        "H1": [
+          34.010908,
+          14.324168
+        ],
+        "G2": [
+          33.670426,
+          26.848411
+        ],
+        "H2": [
+          20.79623,
+          27.159933
+        ],
+        "G3": [
+          6.650958,
+          27.943478
+        ],
+        "H3": [
+          7.684064,
+          14.8004
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.427110521954089
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.427110521954089
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 6.4717931648856935
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.059841708918025
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.40507821446907
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.573527023970142
+        }
+      ]
+    },
+    {
+      "sample_id": 36,
+      "seed": 20261053,
+      "layout_config": {
+        "G0": [
+          7.57446,
+          3.034452
+        ],
+        "H0": [
+          20.239321,
+          2.957081
+        ],
+        "G1": [
+          33.29357,
+          3.641298
+        ],
+        "H1": [
+          34.690321,
+          15.33616
+        ],
+        "G2": [
+          34.762554,
+          26.801736
+        ],
+        "H2": [
+          20.585092,
+          26.208119
+        ],
+        "G3": [
+          7.035376,
+          27.712695
+        ],
+        "H3": [
+          8.687051,
+          15.669986
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.723121979837236
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.723121979837236
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.869454428896961
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.89920581030559
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.92365659631119
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.20453867912343
+        }
+      ]
+    },
+    {
+      "sample_id": 37,
+      "seed": 20261054,
+      "layout_config": {
+        "G0": [
+          6.260252,
+          2.015057
+        ],
+        "H0": [
+          19.779761,
+          3.139587
+        ],
+        "G1": [
+          33.629243,
+          2.309613
+        ],
+        "H1": [
+          34.331655,
+          14.042856
+        ],
+        "G2": [
+          33.29971,
+          27.436567
+        ],
+        "H2": [
+          19.02916,
+          26.935218
+        ],
+        "G3": [
+          5.561889,
+          28.233478
+        ],
+        "H3": [
+          6.924665,
+          15.504319
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 4.4658695297851745
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 4.4658695297851745
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.434643698291968
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.577077158031981
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.751092514714184
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.440142728698389
+        }
+      ]
+    },
+    {
+      "sample_id": 38,
+      "seed": 20261055,
+      "layout_config": {
+        "G0": [
+          6.915804,
+          1.53476
+        ],
+        "H0": [
+          20.195517,
+          2.731733
+        ],
+        "G1": [
+          33.523904,
+          1.895523
+        ],
+        "H1": [
+          34.607347,
+          14.146232
+        ],
+        "G2": [
+          33.588882,
+          27.868566
+        ],
+        "H2": [
+          21.291114,
+          26.710518
+        ],
+        "G3": [
+          7.841584,
+          27.809989
+        ],
+        "H3": [
+          8.347335,
+          14.486016
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.723807401574265
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.723807401574265
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.950486562988734
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.57027893413951
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 10.710212200216493
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.90790486941331
+        }
+      ]
+    },
+    {
+      "sample_id": 39,
+      "seed": 20261056,
+      "layout_config": {
+        "G0": [
+          7.130714,
+          2.332906
+        ],
+        "H0": [
+          19.964589,
+          1.532985
+        ],
+        "G1": [
+          34.007467,
+          1.082934
+        ],
+        "H1": [
+          35.449213,
+          14.831111
+        ],
+        "G2": [
+          33.271641,
+          27.472416
+        ],
+        "H2": [
+          19.898992,
+          27.438654
+        ],
+        "G3": [
+          7.095377,
+          27.67959
+        ],
+        "H3": [
+          8.254832,
+          14.339988
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.701024224621
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.701024224621
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.784400420677903
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.512788404729347
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.91238802292552
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.326332093193058
+        }
+      ]
+    },
+    {
+      "sample_id": 40,
+      "seed": 20261057,
+      "layout_config": {
+        "G0": [
+          6.337369,
+          3.529798
+        ],
+        "H0": [
+          18.994389,
+          2.775431
+        ],
+        "G1": [
+          33.212873,
+          2.572845
+        ],
+        "H1": [
+          35.640032,
+          14.787217
+        ],
+        "G2": [
+          33.494833,
+          27.16868
+        ],
+        "H2": [
+          19.667908,
+          27.034433
+        ],
+        "G3": [
+          6.979693,
+          27.363436
+        ],
+        "H3": [
+          8.054393,
+          15.338854
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.516996224894138
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.516996224894138
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.613844086653863
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.870128423475822
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.43576882905546
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.013447995850083
+        }
+      ]
+    },
+    {
+      "sample_id": 41,
+      "seed": 20261058,
+      "layout_config": {
+        "G0": [
+          7.586567,
+          1.837722
+        ],
+        "H0": [
+          20.399078,
+          2.063667
+        ],
+        "G1": [
+          34.199885,
+          2.355081
+        ],
+        "H1": [
+          33.686239,
+          14.964785
+        ],
+        "G2": [
+          34.032215,
+          26.376
+        ],
+        "H2": [
+          21.127243,
+          28.642769
+        ],
+        "G3": [
+          6.914906,
+          27.451958
+        ],
+        "H3": [
+          8.641502,
+          14.444322
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.331813592019177
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.331813592019177
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.707484524980197
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.733031000667415
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.462947870152137
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.377923954825434
+        }
+      ]
+    },
+    {
+      "sample_id": 42,
+      "seed": 20261059,
+      "layout_config": {
+        "G0": [
+          5.336699,
+          3.769241
+        ],
+        "H0": [
+          19.308512,
+          3.197198
+        ],
+        "G1": [
+          32.946203,
+          1.987507
+        ],
+        "H1": [
+          35.014689,
+          14.843437
+        ],
+        "G2": [
+          32.926839,
+          27.096404
+        ],
+        "H2": [
+          20.933863,
+          27.956708
+        ],
+        "G3": [
+          6.83743,
+          28.11568
+        ],
+        "H3": [
+          8.708988,
+          15.294914
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.089514461103485
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.089514461103485
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.9234215534828785
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.977064441743936
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.998335755903701
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.131183417515023
+        }
+      ]
+    },
+    {
+      "sample_id": 43,
+      "seed": 20261060,
+      "layout_config": {
+        "G0": [
+          7.15143,
+          1.324923
+        ],
+        "H0": [
+          21.695837,
+          2.788149
+        ],
+        "G1": [
+          35.516685,
+          3.532557
+        ],
+        "H1": [
+          35.292915,
+          15.335594
+        ],
+        "G2": [
+          34.376501,
+          28.261825
+        ],
+        "H2": [
+          20.305052,
+          28.611084
+        ],
+        "G3": [
+          6.503962,
+          27.049001
+        ],
+        "H3": [
+          8.050598,
+          15.665181
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.951233577066262
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.951233577066262
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.289744653334871
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.559900212031495
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.593635761714847
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.714812446309631
+        }
+      ]
+    },
+    {
+      "sample_id": 44,
+      "seed": 20261061,
+      "layout_config": {
+        "G0": [
+          6.050085,
+          1.853375
+        ],
+        "H0": [
+          19.967251,
+          2.534444
+        ],
+        "G1": [
+          34.101592,
+          2.343967
+        ],
+        "H1": [
+          33.501989,
+          15.588724
+        ],
+        "G2": [
+          33.482982,
+          28.531616
+        ],
+        "H2": [
+          19.387203,
+          28.051302
+        ],
+        "G3": [
+          5.448479,
+          27.438698
+        ],
+        "H3": [
+          7.237815,
+          15.188643
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.942502816819563
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.942502816819563
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.688168351701392
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.046388082831864
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.157996623145754
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.288139789163763
+        }
+      ]
+    },
+    {
+      "sample_id": 45,
+      "seed": 20261062,
+      "layout_config": {
+        "G0": [
+          7.586332,
+          2.873356
+        ],
+        "H0": [
+          20.85876,
+          3.150003
+        ],
+        "G1": [
+          33.959971,
+          1.322344
+        ],
+        "H1": [
+          35.310778,
+          15.212171
+        ],
+        "G2": [
+          34.976177,
+          27.729472
+        ],
+        "H2": [
+          20.358018,
+          27.054871
+        ],
+        "G3": [
+          6.250528,
+          28.084504
+        ],
+        "H3": [
+          7.132429,
+          15.757879
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v2.json",
+        "label": 0,
+        "distance": 6.742122530638818
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 6.742122530638818
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.940019112298023
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.614922561456124
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.085881915144688
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.28363835262856
+        }
+      ]
+    },
+    {
+      "sample_id": 46,
+      "seed": 20261063,
+      "layout_config": {
+        "G0": [
+          6.885679,
+          1.260486
+        ],
+        "H0": [
+          20.717214,
+          1.884077
+        ],
+        "G1": [
+          32.960307,
+          1.379454
+        ],
+        "H1": [
+          34.873717,
+          13.131345
+        ],
+        "G2": [
+          33.771856,
+          27.40553
+        ],
+        "H2": [
+          21.967928,
+          27.095467
+        ],
+        "G3": [
+          5.330409,
+          26.527712
+        ],
+        "H3": [
+          8.26863,
+          14.324081
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 9.529441727509491
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 9.529441727509491
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.902100876700068
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 11.891058383777384
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 13.670100598822636
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 14.224135854051346
+        }
+      ]
+    },
+    {
+      "sample_id": 47,
+      "seed": 20261064,
+      "layout_config": {
+        "G0": [
+          7.01203,
+          1.842478
+        ],
+        "H0": [
+          22.014744,
+          2.666871
+        ],
+        "G1": [
+          34.869369,
+          2.718564
+        ],
+        "H1": [
+          34.672508,
+          15.33355
+        ],
+        "G2": [
+          32.288162,
+          27.666918
+        ],
+        "H2": [
+          19.184496,
+          27.497909
+        ],
+        "G3": [
+          4.976365,
+          27.279242
+        ],
+        "H3": [
+          6.758395,
+          14.910638
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.538485232972075
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.538485232972075
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.999270514244033
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.225252006360138
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.420382184031414
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.551290194850731
+        }
+      ]
+    },
+    {
+      "sample_id": 48,
+      "seed": 20261065,
+      "layout_config": {
+        "G0": [
+          5.659745,
+          2.094194
+        ],
+        "H0": [
+          18.989698,
+          2.002552
+        ],
+        "G1": [
+          32.861217,
+          3.106549
+        ],
+        "H1": [
+          33.301673,
+          14.765575
+        ],
+        "G2": [
+          32.704005,
+          27.21169
+        ],
+        "H2": [
+          19.430469,
+          25.599135
+        ],
+        "G3": [
+          6.394606,
+          27.332407
+        ],
+        "H3": [
+          8.688876,
+          14.113304
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 9.677247768917747
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 9.677247768917747
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.931099128887523
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 12.23891176839153
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.545280031284198
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 13.587095172202305
+        }
+      ]
+    },
+    {
+      "sample_id": 49,
+      "seed": 20261066,
+      "layout_config": {
+        "G0": [
+          6.120679,
+          2.089243
+        ],
+        "H0": [
+          20.663364,
+          3.007357
+        ],
+        "G1": [
+          33.49753,
+          1.301071
+        ],
+        "H1": [
+          34.238897,
+          13.699601
+        ],
+        "G2": [
+          34.362117,
+          25.214491
+        ],
+        "H2": [
+          21.617244,
+          27.104137
+        ],
+        "G3": [
+          7.31317,
+          26.40233
+        ],
+        "H3": [
+          7.736156,
+          13.77898
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 12.855342804803696
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 12.855342804803696
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 13.244323104596894
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 14.970110665275946
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 16.096159954053093
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 16.857477778387064
+        }
+      ]
+    },
+    {
+      "sample_id": 50,
+      "seed": 20261067,
+      "layout_config": {
+        "G0": [
+          5.533488,
+          2.206786
+        ],
+        "H0": [
+          18.995304,
+          1.487115
+        ],
+        "G1": [
+          34.282017,
+          1.985493
+        ],
+        "H1": [
+          34.902862,
+          14.565928
+        ],
+        "G2": [
+          32.33847,
+          27.323002
+        ],
+        "H2": [
+          20.140657,
+          27.077342
+        ],
+        "G3": [
+          6.828041,
+          28.39855
+        ],
+        "H3": [
+          8.542206,
+          15.598863
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.817198700951638
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.817198700951638
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.813848224893686
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.850435730498647
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.145712463304566
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.545752177996784
+        }
+      ]
+    },
+    {
+      "sample_id": 51,
+      "seed": 20261068,
+      "layout_config": {
+        "G0": [
+          6.716192,
+          2.340717
+        ],
+        "H0": [
+          19.756155,
+          2.347228
+        ],
+        "G1": [
+          33.006006,
+          2.26801
+        ],
+        "H1": [
+          35.383909,
+          14.631249
+        ],
+        "G2": [
+          33.42674,
+          28.370899
+        ],
+        "H2": [
+          20.012269,
+          27.295552
+        ],
+        "G3": [
+          7.188267,
+          26.607587
+        ],
+        "H3": [
+          8.648674,
+          14.442801
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.133403200033665
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.133403200033665
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.614146964851275
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.038870887471463
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.755076779503062
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.8602717457506
+        }
+      ]
+    },
+    {
+      "sample_id": 52,
+      "seed": 20261069,
+      "layout_config": {
+        "G0": [
+          5.822152,
+          2.012189
+        ],
+        "H0": [
+          20.18123,
+          3.01035
+        ],
+        "G1": [
+          32.859412,
+          1.969685
+        ],
+        "H1": [
+          33.416378,
+          14.401972
+        ],
+        "G2": [
+          34.309972,
+          26.99234
+        ],
+        "H2": [
+          20.560436,
+          28.20096
+        ],
+        "G3": [
+          7.286973,
+          28.612706
+        ],
+        "H3": [
+          8.578146,
+          15.921357
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.942361523523946
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.942361523523946
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.734156269635619
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.8913091739170875
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.844864971658625
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.507461307697579
+        }
+      ]
+    },
+    {
+      "sample_id": 53,
+      "seed": 20261070,
+      "layout_config": {
+        "G0": [
+          6.599218,
+          2.058907
+        ],
+        "H0": [
+          19.497007,
+          2.493382
+        ],
+        "G1": [
+          31.620951,
+          1.908797
+        ],
+        "H1": [
+          33.925847,
+          13.66861
+        ],
+        "G2": [
+          33.673912,
+          26.76001
+        ],
+        "H2": [
+          21.684677,
+          26.941328
+        ],
+        "G3": [
+          5.543635,
+          26.844458
+        ],
+        "H3": [
+          8.347754,
+          14.861077
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.294507493437817
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.294507493437817
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.752266189603182
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.420261589305614
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.53601640208515
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.000271250438031
+        }
+      ]
+    },
+    {
+      "sample_id": 54,
+      "seed": 20261071,
+      "layout_config": {
+        "G0": [
+          6.787295,
+          1.50657
+        ],
+        "H0": [
+          19.850088,
+          2.669808
+        ],
+        "G1": [
+          33.01799,
+          3.459154
+        ],
+        "H1": [
+          34.447768,
+          15.014116
+        ],
+        "G2": [
+          33.830474,
+          27.475089
+        ],
+        "H2": [
+          20.273819,
+          28.74199
+        ],
+        "G3": [
+          6.520661,
+          28.230352
+        ],
+        "H3": [
+          7.949067,
+          14.858381
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.2386925729616225
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.2386925729616225
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.203526506028705
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.352905280521034
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.446280191039717
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 10.451739271163252
+        }
+      ]
+    },
+    {
+      "sample_id": 55,
+      "seed": 20261072,
+      "layout_config": {
+        "G0": [
+          6.60268,
+          3.049468
+        ],
+        "H0": [
+          19.709281,
+          4.134589
+        ],
+        "G1": [
+          33.302258,
+          2.237616
+        ],
+        "H1": [
+          33.599809,
+          15.365848
+        ],
+        "G2": [
+          33.367711,
+          27.375923
+        ],
+        "H2": [
+          21.576914,
+          26.803798
+        ],
+        "G3": [
+          6.509445,
+          27.956229
+        ],
+        "H3": [
+          6.732255,
+          14.796198
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v3.json",
+        "label": 1,
+        "distance": 6.0213114507850864
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 6.0213114507850864
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.196803039976981
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.216837169883936
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.65129025198907
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.661440192602011
+        }
+      ]
+    },
+    {
+      "sample_id": 56,
+      "seed": 20261073,
+      "layout_config": {
+        "G0": [
+          6.468384,
+          1.930487
+        ],
+        "H0": [
+          19.367246,
+          3.844746
+        ],
+        "G1": [
+          33.535876,
+          3.473714
+        ],
+        "H1": [
+          33.890945,
+          15.155929
+        ],
+        "G2": [
+          32.4511,
+          27.447555
+        ],
+        "H2": [
+          19.880251,
+          28.349499
+        ],
+        "G3": [
+          6.891514,
+          27.571563
+        ],
+        "H3": [
+          8.533511,
+          15.215768
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.367996542840578
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.367996542840578
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.411257732908063
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.695208561253995
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.958253359170875
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.127137834173487
+        }
+      ]
+    },
+    {
+      "sample_id": 57,
+      "seed": 20261074,
+      "layout_config": {
+        "G0": [
+          6.98136,
+          3.699388
+        ],
+        "H0": [
+          21.343274,
+          3.89267
+        ],
+        "G1": [
+          34.882663,
+          1.681537
+        ],
+        "H1": [
+          34.048768,
+          13.90362
+        ],
+        "G2": [
+          34.187318,
+          27.6759
+        ],
+        "H2": [
+          20.54788,
+          27.195127
+        ],
+        "G3": [
+          5.93004,
+          27.172997
+        ],
+        "H3": [
+          8.183105,
+          15.728844
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v2.json",
+        "label": 0,
+        "distance": 7.089048902218111
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.089048902218111
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.361896919599886
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.656296539163319
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.489585128462181
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.616729414123073
+        }
+      ]
+    },
+    {
+      "sample_id": 58,
+      "seed": 20261075,
+      "layout_config": {
+        "G0": [
+          6.735467,
+          2.98889
+        ],
+        "H0": [
+          21.237741,
+          1.801259
+        ],
+        "G1": [
+          32.981204,
+          2.308508
+        ],
+        "H1": [
+          33.788659,
+          14.21012
+        ],
+        "G2": [
+          33.730861,
+          25.671537
+        ],
+        "H2": [
+          21.200503,
+          27.101316
+        ],
+        "G3": [
+          7.101355,
+          27.537712
+        ],
+        "H3": [
+          8.30559,
+          15.581656
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.347333205549731
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.347333205549731
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.542669876052173
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.46564836097762
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.514466274132424
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.155655715514508
+        }
+      ]
+    },
+    {
+      "sample_id": 59,
+      "seed": 20261076,
+      "layout_config": {
+        "G0": [
+          6.636586,
+          2.066282
+        ],
+        "H0": [
+          19.800701,
+          3.420437
+        ],
+        "G1": [
+          33.632985,
+          3.035958
+        ],
+        "H1": [
+          33.480943,
+          14.730617
+        ],
+        "G2": [
+          32.127411,
+          27.859766
+        ],
+        "H2": [
+          19.883021,
+          27.21771
+        ],
+        "G3": [
+          6.454222,
+          26.369372
+        ],
+        "H3": [
+          8.585443,
+          14.988816
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 4.99916644318624
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 4.99916644318624
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.858551515545558
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.97541306380754
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.863261448594299
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.419122624608105
+        }
+      ]
+    },
+    {
+      "sample_id": 60,
+      "seed": 20261077,
+      "layout_config": {
+        "G0": [
+          7.131795,
+          3.729567
+        ],
+        "H0": [
+          21.096307,
+          4.627338
+        ],
+        "G1": [
+          34.403008,
+          3.620769
+        ],
+        "H1": [
+          33.642488,
+          15.870641
+        ],
+        "G2": [
+          33.576842,
+          27.902972
+        ],
+        "H2": [
+          20.37094,
+          27.349953
+        ],
+        "G3": [
+          5.619841,
+          27.418682
+        ],
+        "H3": [
+          8.513236,
+          15.5372
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v2.json",
+        "label": 0,
+        "distance": 8.162983898585058
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.162983898585058
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.308503707865057
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 9.001475728929167
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.271187225454531
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.534748022894878
+        }
+      ]
+    },
+    {
+      "sample_id": 61,
+      "seed": 20261078,
+      "layout_config": {
+        "G0": [
+          6.506049,
+          2.099446
+        ],
+        "H0": [
+          19.885772,
+          1.586553
+        ],
+        "G1": [
+          33.51818,
+          3.61761
+        ],
+        "H1": [
+          33.270878,
+          15.539654
+        ],
+        "G2": [
+          33.708717,
+          27.512527
+        ],
+        "H2": [
+          20.195381,
+          26.081551
+        ],
+        "G3": [
+          6.374441,
+          27.909314
+        ],
+        "H3": [
+          8.334238,
+          15.193485
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.862965652474691
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.862965652474691
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.304471491127615
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.779117169907135
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.472931068789
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.780143186277247
+        }
+      ]
+    },
+    {
+      "sample_id": 62,
+      "seed": 20261079,
+      "layout_config": {
+        "G0": [
+          6.19939,
+          3.041837
+        ],
+        "H0": [
+          18.777815,
+          3.025664
+        ],
+        "G1": [
+          33.231223,
+          2.139895
+        ],
+        "H1": [
+          33.698851,
+          15.658286
+        ],
+        "G2": [
+          34.125487,
+          27.784325
+        ],
+        "H2": [
+          21.438435,
+          26.501199
+        ],
+        "G3": [
+          6.952579,
+          26.834736
+        ],
+        "H3": [
+          6.717167,
+          14.985864
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.775367924479919
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.775367924479919
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 5.836830005171204
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 6.8426995287708605
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.452581444340805
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.999866676288581
+        }
+      ]
+    },
+    {
+      "sample_id": 63,
+      "seed": 20261080,
+      "layout_config": {
+        "G0": [
+          5.764589,
+          3.034635
+        ],
+        "H0": [
+          19.231311,
+          3.062051
+        ],
+        "G1": [
+          33.654507,
+          1.584166
+        ],
+        "H1": [
+          34.574239,
+          13.874557
+        ],
+        "G2": [
+          33.434615,
+          28.234588
+        ],
+        "H2": [
+          21.340671,
+          26.549598
+        ],
+        "G3": [
+          5.971841,
+          26.37546
+        ],
+        "H3": [
+          8.734538,
+          14.667073
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.039115409141769
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.039115409141769
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.48568452173771
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.823952650795977
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.487820825368384
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.901141973239923
+        }
+      ]
+    },
+    {
+      "sample_id": 64,
+      "seed": 20261081,
+      "layout_config": {
+        "G0": [
+          6.815607,
+          2.058878
+        ],
+        "H0": [
+          20.356213,
+          3.233367
+        ],
+        "G1": [
+          33.430428,
+          3.956708
+        ],
+        "H1": [
+          34.721564,
+          15.722635
+        ],
+        "G2": [
+          34.594137,
+          26.980879
+        ],
+        "H2": [
+          20.814182,
+          27.104712
+        ],
+        "G3": [
+          6.414632,
+          27.364328
+        ],
+        "H3": [
+          8.041536,
+          15.287826
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.523757779550691
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.523757779550691
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.426432341621833
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.912863091291198
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.345180032836723
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.3883285524451
+        }
+      ]
+    },
+    {
+      "sample_id": 65,
+      "seed": 20261082,
+      "layout_config": {
+        "G0": [
+          6.149731,
+          2.681304
+        ],
+        "H0": [
+          20.625029,
+          1.772707
+        ],
+        "G1": [
+          33.983354,
+          1.979701
+        ],
+        "H1": [
+          33.178548,
+          14.913129
+        ],
+        "G2": [
+          32.618527,
+          27.046336
+        ],
+        "H2": [
+          19.272862,
+          26.899639
+        ],
+        "G3": [
+          6.64915,
+          26.025199
+        ],
+        "H3": [
+          7.57176,
+          14.203855
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.79678742199304
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.79678742199304
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.711019777712847
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.704814676755648
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.664782254724864
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 11.685162899637334
+        }
+      ]
+    },
+    {
+      "sample_id": 66,
+      "seed": 20261083,
+      "layout_config": {
+        "G0": [
+          7.446194,
+          2.45144
+        ],
+        "H0": [
+          20.559983,
+          1.220345
+        ],
+        "G1": [
+          34.640823,
+          1.561565
+        ],
+        "H1": [
+          33.828805,
+          13.958644
+        ],
+        "G2": [
+          32.971289,
+          28.096532
+        ],
+        "H2": [
+          21.106624,
+          26.804306
+        ],
+        "G3": [
+          5.703248,
+          27.722651
+        ],
+        "H3": [
+          8.08376,
+          16.149941
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.821719040296854
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.821719040296854
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.402755430543435
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.405618008864325
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.194955441935713
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.206591466902625
+        }
+      ]
+    },
+    {
+      "sample_id": 67,
+      "seed": 20261084,
+      "layout_config": {
+        "G0": [
+          7.6633,
+          3.201311
+        ],
+        "H0": [
+          20.29862,
+          4.055215
+        ],
+        "G1": [
+          33.825541,
+          3.733271
+        ],
+        "H1": [
+          33.467637,
+          15.451168
+        ],
+        "G2": [
+          34.252452,
+          29.202402
+        ],
+        "H2": [
+          19.452026,
+          28.950218
+        ],
+        "G3": [
+          5.519973,
+          27.522952
+        ],
+        "H3": [
+          8.070645,
+          15.638958
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v5.json",
+        "label": 0,
+        "distance": 8.017334634344333
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.017334634344333
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.454867812546881
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 10.180551237563005
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.588519138968044
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.112324533300463
+        }
+      ]
+    },
+    {
+      "sample_id": 68,
+      "seed": 20261085,
+      "layout_config": {
+        "G0": [
+          6.024749,
+          3.309417
+        ],
+        "H0": [
+          19.776416,
+          2.615776
+        ],
+        "G1": [
+          32.945002,
+          1.960911
+        ],
+        "H1": [
+          33.799415,
+          14.829441
+        ],
+        "G2": [
+          34.347924,
+          26.795672
+        ],
+        "H2": [
+          20.86363,
+          26.926908
+        ],
+        "G3": [
+          7.510386,
+          28.075498
+        ],
+        "H3": [
+          9.452405,
+          14.973661
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.025550812141683
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.025550812141683
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 6.727158258620392
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.847033521223218
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.118290569781829
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.234323100543058
+        }
+      ]
+    },
+    {
+      "sample_id": 69,
+      "seed": 20261086,
+      "layout_config": {
+        "G0": [
+          6.509271,
+          1.877685
+        ],
+        "H0": [
+          19.508697,
+          3.320055
+        ],
+        "G1": [
+          33.878142,
+          4.039326
+        ],
+        "H1": [
+          34.149437,
+          15.776066
+        ],
+        "G2": [
+          32.621598,
+          28.167291
+        ],
+        "H2": [
+          20.887459,
+          27.962209
+        ],
+        "G3": [
+          7.204751,
+          26.094188
+        ],
+        "H3": [
+          8.506057,
+          14.520697
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 9.090174994415115
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 9.090174994415115
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.021999303259976
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.564680267256584
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.697099138450596
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.524307169007821
+        }
+      ]
+    },
+    {
+      "sample_id": 70,
+      "seed": 20261087,
+      "layout_config": {
+        "G0": [
+          5.309832,
+          2.896804
+        ],
+        "H0": [
+          18.387052,
+          2.103117
+        ],
+        "G1": [
+          33.09918,
+          1.950598
+        ],
+        "H1": [
+          33.866054,
+          13.553462
+        ],
+        "G2": [
+          33.032246,
+          25.85832
+        ],
+        "H2": [
+          21.180696,
+          26.335978
+        ],
+        "G3": [
+          5.754244,
+          26.828248
+        ],
+        "H3": [
+          8.702288,
+          14.556083
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 8.81079509122503
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.81079509122503
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 11.283780554510956
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 12.314219062901858
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 12.896925715554245
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.931949819281622
+        }
+      ]
+    },
+    {
+      "sample_id": 71,
+      "seed": 20261088,
+      "layout_config": {
+        "G0": [
+          6.306683,
+          2.299081
+        ],
+        "H0": [
+          20.790925,
+          2.341243
+        ],
+        "G1": [
+          35.277596,
+          3.110114
+        ],
+        "H1": [
+          35.425174,
+          15.040508
+        ],
+        "G2": [
+          33.393398,
+          28.287387
+        ],
+        "H2": [
+          19.816081,
+          27.519229
+        ],
+        "G3": [
+          5.212632,
+          27.225942
+        ],
+        "H3": [
+          7.217532,
+          15.938531
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.330885980196966
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.330885980196966
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.495858388168477
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.620528211628296
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.16179159242621
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.3805024056276
+        }
+      ]
+    },
+    {
+      "sample_id": 72,
+      "seed": 20261089,
+      "layout_config": {
+        "G0": [
+          8.180705,
+          2.374503
+        ],
+        "H0": [
+          21.124511,
+          3.637891
+        ],
+        "G1": [
+          33.461947,
+          2.815253
+        ],
+        "H1": [
+          36.520562,
+          15.69775
+        ],
+        "G2": [
+          33.726679,
+          28.125635
+        ],
+        "H2": [
+          20.574179,
+          27.59706
+        ],
+        "G3": [
+          7.191961,
+          28.079065
+        ],
+        "H3": [
+          8.757846,
+          15.535023
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.726618828657434
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.726618828657434
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.482088729360055
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.799809199580997
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.979262182801028
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.761181851998764
+        }
+      ]
+    },
+    {
+      "sample_id": 73,
+      "seed": 20261090,
+      "layout_config": {
+        "G0": [
+          6.602802,
+          1.081293
+        ],
+        "H0": [
+          20.30808,
+          3.854381
+        ],
+        "G1": [
+          33.460319,
+          3.173952
+        ],
+        "H1": [
+          33.725399,
+          15.327859
+        ],
+        "G2": [
+          32.636001,
+          27.701137
+        ],
+        "H2": [
+          19.95984,
+          27.048959
+        ],
+        "G3": [
+          7.152078,
+          27.643211
+        ],
+        "H3": [
+          9.097475,
+          15.296282
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.959437620417069
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.959437620417069
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.130782544057162
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.362423674764306
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.812140851153277
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 10.727575088303515
+        }
+      ]
+    },
+    {
+      "sample_id": 74,
+      "seed": 20261091,
+      "layout_config": {
+        "G0": [
+          6.543639,
+          2.482496
+        ],
+        "H0": [
+          19.604765,
+          2.465839
+        ],
+        "G1": [
+          32.043021,
+          2.124223
+        ],
+        "H1": [
+          34.451685,
+          15.065255
+        ],
+        "G2": [
+          33.295463,
+          28.073975
+        ],
+        "H2": [
+          20.589833,
+          27.035178
+        ],
+        "G3": [
+          5.804752,
+          26.2164
+        ],
+        "H3": [
+          7.303865,
+          14.888053
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 4.525342375698513
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 4.525342375698513
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.005950837258373
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.237752039181359
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.098331576440534
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.207814370010711
+        }
+      ]
+    },
+    {
+      "sample_id": 75,
+      "seed": 20261092,
+      "layout_config": {
+        "G0": [
+          6.577181,
+          3.040418
+        ],
+        "H0": [
+          22.104924,
+          3.079636
+        ],
+        "G1": [
+          35.006233,
+          2.834065
+        ],
+        "H1": [
+          35.485991,
+          14.539446
+        ],
+        "G2": [
+          33.554103,
+          27.181896
+        ],
+        "H2": [
+          21.120014,
+          26.449943
+        ],
+        "G3": [
+          5.252856,
+          27.360958
+        ],
+        "H3": [
+          8.529158,
+          15.671909
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.522288276179592
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.522288276179592
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 6.924359928785565
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.445453096988055
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.175546240485666
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.374095650018829
+        }
+      ]
+    },
+    {
+      "sample_id": 76,
+      "seed": 20261093,
+      "layout_config": {
+        "G0": [
+          6.330056,
+          3.503626
+        ],
+        "H0": [
+          19.978972,
+          2.099094
+        ],
+        "G1": [
+          33.088884,
+          2.010178
+        ],
+        "H1": [
+          33.661131,
+          15.061465
+        ],
+        "G2": [
+          34.256844,
+          27.046895
+        ],
+        "H2": [
+          20.753072,
+          27.415429
+        ],
+        "G3": [
+          5.448281,
+          27.804788
+        ],
+        "H3": [
+          8.252091,
+          16.211146
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v2.json",
+        "label": 0,
+        "distance": 7.947974331591294
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.947974331591294
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.348806938812857
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.523634923481463
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.199447033515883
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.039688422816708
+        }
+      ]
+    },
+    {
+      "sample_id": 77,
+      "seed": 20261094,
+      "layout_config": {
+        "G0": [
+          6.134106,
+          3.303784
+        ],
+        "H0": [
+          19.114167,
+          3.49755
+        ],
+        "G1": [
+          33.26088,
+          3.130744
+        ],
+        "H1": [
+          34.680698,
+          16.089847
+        ],
+        "G2": [
+          32.68176,
+          29.0232
+        ],
+        "H2": [
+          20.857806,
+          28.03029
+        ],
+        "G3": [
+          7.118123,
+          26.830118
+        ],
+        "H3": [
+          7.760819,
+          15.370865
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v5.json",
+        "label": 0,
+        "distance": 6.340275277292781
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 6.340275277292781
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.201040194265499
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.359672550697532
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.40355421813301
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.454114835653384
+        }
+      ]
+    },
+    {
+      "sample_id": 78,
+      "seed": 20261095,
+      "layout_config": {
+        "G0": [
+          7.439343,
+          2.188439
+        ],
+        "H0": [
+          20.320745,
+          2.102906
+        ],
+        "G1": [
+          34.678845,
+          2.631916
+        ],
+        "H1": [
+          34.038858,
+          14.650345
+        ],
+        "G2": [
+          32.714168,
+          26.772362
+        ],
+        "H2": [
+          19.345487,
+          25.419981
+        ],
+        "G3": [
+          5.566508,
+          28.017245
+        ],
+        "H3": [
+          6.5998,
+          15.232072
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.950422860362866
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.950422860362866
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.524473523454876
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.901569562191497
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.01831733772201
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.250239941942835
+        }
+      ]
+    },
+    {
+      "sample_id": 79,
+      "seed": 20261096,
+      "layout_config": {
+        "G0": [
+          5.959966,
+          2.304835
+        ],
+        "H0": [
+          19.742234,
+          2.891114
+        ],
+        "G1": [
+          34.257654,
+          2.54181
+        ],
+        "H1": [
+          34.634335,
+          14.754573
+        ],
+        "G2": [
+          33.235896,
+          26.270363
+        ],
+        "H2": [
+          20.071944,
+          26.491291
+        ],
+        "G3": [
+          5.40124,
+          26.024064
+        ],
+        "H3": [
+          8.017444,
+          14.672311
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.088874881535531
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.088874881535531
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.493170576731597
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.427172482686915
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 10.521351839005327
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 11.175148381627213
+        }
+      ]
+    },
+    {
+      "sample_id": 80,
+      "seed": 20261097,
+      "layout_config": {
+        "G0": [
+          6.507303,
+          3.221472
+        ],
+        "H0": [
+          19.578965,
+          3.462016
+        ],
+        "G1": [
+          34.033033,
+          2.360693
+        ],
+        "H1": [
+          33.348519,
+          14.477635
+        ],
+        "G2": [
+          33.832652,
+          29.097208
+        ],
+        "H2": [
+          21.57331,
+          26.698757
+        ],
+        "G3": [
+          6.155693,
+          27.173869
+        ],
+        "H3": [
+          7.50158,
+          14.944044
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.038736037963706
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.038736037963706
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.641286228452766
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.6871913761053925
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.747122465281312
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.883231433501448
+        }
+      ]
+    },
+    {
+      "sample_id": 81,
+      "seed": 20261098,
+      "layout_config": {
+        "G0": [
+          6.304877,
+          2.250372
+        ],
+        "H0": [
+          21.144162,
+          3.062514
+        ],
+        "G1": [
+          32.900206,
+          2.315266
+        ],
+        "H1": [
+          34.055267,
+          15.509947
+        ],
+        "G2": [
+          34.287245,
+          27.561984
+        ],
+        "H2": [
+          19.762301,
+          27.287507
+        ],
+        "G3": [
+          6.056846,
+          27.683838
+        ],
+        "H3": [
+          7.991796,
+          14.974749
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 4.037625952907102
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 4.037625952907102
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 6.149689251271404
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 6.477626052745323
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.100504044087956
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.156234735239715
+        }
+      ]
+    },
+    {
+      "sample_id": 82,
+      "seed": 20261099,
+      "layout_config": {
+        "G0": [
+          7.344166,
+          1.671771
+        ],
+        "H0": [
+          20.70731,
+          3.272419
+        ],
+        "G1": [
+          34.205525,
+          3.288905
+        ],
+        "H1": [
+          34.431923,
+          14.931399
+        ],
+        "G2": [
+          32.914415,
+          27.06598
+        ],
+        "H2": [
+          20.558448,
+          26.609393
+        ],
+        "G3": [
+          7.810424,
+          26.765392
+        ],
+        "H3": [
+          10.727115,
+          14.505011
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.819865947549925
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.819865947549925
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.736005457757491
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.044105148800499
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.994305769853986
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.750948520305426
+        }
+      ]
+    },
+    {
+      "sample_id": 83,
+      "seed": 20261100,
+      "layout_config": {
+        "G0": [
+          6.957955,
+          2.773435
+        ],
+        "H0": [
+          19.912692,
+          2.538683
+        ],
+        "G1": [
+          33.671582,
+          3.216641
+        ],
+        "H1": [
+          33.918589,
+          15.140919
+        ],
+        "G2": [
+          34.349525,
+          27.463012
+        ],
+        "H2": [
+          20.832868,
+          27.499878
+        ],
+        "G3": [
+          6.870548,
+          27.149497
+        ],
+        "H3": [
+          10.064979,
+          15.663882
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v5.json",
+        "label": 0,
+        "distance": 5.6722255187655115
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 5.6722255187655115
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.849529324818448
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 6.710015483710006
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.253450429122246
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.458667229140659
+        }
+      ]
+    },
+    {
+      "sample_id": 84,
+      "seed": 20261101,
+      "layout_config": {
+        "G0": [
+          6.911529,
+          3.781701
+        ],
+        "H0": [
+          19.943533,
+          3.078919
+        ],
+        "G1": [
+          33.355686,
+          3.290156
+        ],
+        "H1": [
+          34.840278,
+          15.076206
+        ],
+        "G2": [
+          33.380357,
+          28.936186
+        ],
+        "H2": [
+          21.00109,
+          26.65221
+        ],
+        "G3": [
+          5.390537,
+          27.498113
+        ],
+        "H3": [
+          6.449786,
+          16.293117
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v2.json",
+        "label": 0,
+        "distance": 8.507261482867383
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.507261482867383
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 9.374641253201489
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 10.434877946648696
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.13312654159065
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 11.542832094077385
+        }
+      ]
+    },
+    {
+      "sample_id": 85,
+      "seed": 20261102,
+      "layout_config": {
+        "G0": [
+          5.36872,
+          3.397812
+        ],
+        "H0": [
+          20.099815,
+          2.864974
+        ],
+        "G1": [
+          33.855008,
+          3.045399
+        ],
+        "H1": [
+          35.310342,
+          15.337976
+        ],
+        "G2": [
+          32.932333,
+          28.501251
+        ],
+        "H2": [
+          20.579777,
+          26.743147
+        ],
+        "G3": [
+          6.490311,
+          27.094961
+        ],
+        "H3": [
+          8.046935,
+          15.300833
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.949871413440918
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.949871413440918
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 6.178385190621537
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.383750856114138
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.425937720226391
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.775806561148492
+        }
+      ]
+    },
+    {
+      "sample_id": 86,
+      "seed": 20261103,
+      "layout_config": {
+        "G0": [
+          6.766361,
+          2.272099
+        ],
+        "H0": [
+          19.660754,
+          3.090823
+        ],
+        "G1": [
+          33.874618,
+          2.147775
+        ],
+        "H1": [
+          34.808151,
+          14.663637
+        ],
+        "G2": [
+          32.646514,
+          28.323473
+        ],
+        "H2": [
+          20.307542,
+          27.450758
+        ],
+        "G3": [
+          6.132593,
+          28.752806
+        ],
+        "H3": [
+          7.324156,
+          15.688529
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 4.587713087978198
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 4.587713087978198
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.078635998898426
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.390165872595804
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.70704674981395
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.783478335885584
+        }
+      ]
+    },
+    {
+      "sample_id": 87,
+      "seed": 20261104,
+      "layout_config": {
+        "G0": [
+          5.090389,
+          2.874337
+        ],
+        "H0": [
+          19.292796,
+          3.81403
+        ],
+        "G1": [
+          34.621173,
+          3.257479
+        ],
+        "H1": [
+          35.708715,
+          15.185411
+        ],
+        "G2": [
+          32.913388,
+          27.759206
+        ],
+        "H2": [
+          20.848105,
+          26.825523
+        ],
+        "G3": [
+          6.653807,
+          27.547344
+        ],
+        "H3": [
+          7.543026,
+          15.284075
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.973005908187538
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.973005908187538
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.721487683693454
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.777962185631324
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.318875328422696
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.345877072329058
+        }
+      ]
+    },
+    {
+      "sample_id": 88,
+      "seed": 20261105,
+      "layout_config": {
+        "G0": [
+          6.991427,
+          3.324064
+        ],
+        "H0": [
+          20.065091,
+          3.969767
+        ],
+        "G1": [
+          33.531264,
+          1.766643
+        ],
+        "H1": [
+          34.372084,
+          15.009328
+        ],
+        "G2": [
+          32.317132,
+          28.023183
+        ],
+        "H2": [
+          20.422581,
+          26.91507
+        ],
+        "G3": [
+          6.572192,
+          27.907267
+        ],
+        "H3": [
+          8.734515,
+          16.231059
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.866014251571476
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.866014251571476
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.50272651045509
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.85024957460104
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.992942873873572
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.178553790505495
+        }
+      ]
+    },
+    {
+      "sample_id": 89,
+      "seed": 20261106,
+      "layout_config": {
+        "G0": [
+          5.552978,
+          1.820997
+        ],
+        "H0": [
+          19.391415,
+          2.710356
+        ],
+        "G1": [
+          31.336664,
+          2.922173
+        ],
+        "H1": [
+          33.506268,
+          14.889091
+        ],
+        "G2": [
+          33.03055,
+          28.66787
+        ],
+        "H2": [
+          20.00108,
+          27.971153
+        ],
+        "G3": [
+          6.45654,
+          27.040585
+        ],
+        "H3": [
+          6.924249,
+          14.004206
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 10.200492683741595
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 10.200492683741595
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.560630460990488
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 11.71101375583631
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 11.723766844805363
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 13.383740042564247
+        }
+      ]
+    },
+    {
+      "sample_id": 90,
+      "seed": 20261107,
+      "layout_config": {
+        "G0": [
+          6.164169,
+          1.768049
+        ],
+        "H0": [
+          19.494969,
+          2.728911
+        ],
+        "G1": [
+          33.240201,
+          1.870303
+        ],
+        "H1": [
+          34.078604,
+          15.360454
+        ],
+        "G2": [
+          32.935991,
+          27.033646
+        ],
+        "H2": [
+          20.340872,
+          26.792492
+        ],
+        "G3": [
+          6.705236,
+          26.705382
+        ],
+        "H3": [
+          7.482137,
+          13.567794
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 11.013527558969402
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 11.013527558969402
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 12.352664772005845
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 12.84738721300621
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 14.696021388632404
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 14.838809374668008
+        }
+      ]
+    },
+    {
+      "sample_id": 91,
+      "seed": 20261108,
+      "layout_config": {
+        "G0": [
+          5.908512,
+          1.299238
+        ],
+        "H0": [
+          19.796587,
+          1.89971
+        ],
+        "G1": [
+          34.432819,
+          1.241844
+        ],
+        "H1": [
+          33.982475,
+          14.898297
+        ],
+        "G2": [
+          33.134688,
+          27.333202
+        ],
+        "H2": [
+          20.43702,
+          27.229885
+        ],
+        "G3": [
+          6.838544,
+          27.120463
+        ],
+        "H3": [
+          8.525786,
+          13.691068
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 11.634847694082296
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 11.634847694082296
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 12.86974665833424
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 13.150396205973324
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 15.375477641225526
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 15.497214926219355
+        }
+      ]
+    },
+    {
+      "sample_id": 92,
+      "seed": 20261109,
+      "layout_config": {
+        "G0": [
+          6.707107,
+          2.905711
+        ],
+        "H0": [
+          19.75115,
+          2.980867
+        ],
+        "G1": [
+          33.451022,
+          3.061047
+        ],
+        "H1": [
+          34.706108,
+          14.763732
+        ],
+        "G2": [
+          32.639683,
+          27.018315
+        ],
+        "H2": [
+          20.388019,
+          26.244574
+        ],
+        "G3": [
+          6.759622,
+          27.106046
+        ],
+        "H3": [
+          8.42212,
+          15.094935
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 4.626200328223772
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 4.626200328223772
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.79750884836041
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.8845270885605485
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 8.17820344706086
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.34776747881147
+        }
+      ]
+    },
+    {
+      "sample_id": 93,
+      "seed": 20261110,
+      "layout_config": {
+        "G0": [
+          5.54856,
+          2.987229
+        ],
+        "H0": [
+          19.260571,
+          2.023122
+        ],
+        "G1": [
+          33.352661,
+          2.406434
+        ],
+        "H1": [
+          34.540448,
+          15.247021
+        ],
+        "G2": [
+          33.421783,
+          28.767376
+        ],
+        "H2": [
+          21.276162,
+          27.934416
+        ],
+        "G3": [
+          6.191815,
+          27.52315
+        ],
+        "H3": [
+          7.037969,
+          16.226276
+        ]
+      },
+      "predicted_label": 0,
+      "nearest_reference": {
+        "filename": "heat_analysis_v2.json",
+        "label": 0,
+        "distance": 7.2824288374168615
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 7.2824288374168615
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.600822663863077
+        },
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 8.514981901265951
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 9.157679778627411
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 9.849752471922624
+        }
+      ]
+    },
+    {
+      "sample_id": 94,
+      "seed": 20261111,
+      "layout_config": {
+        "G0": [
+          5.459219,
+          2.619145
+        ],
+        "H0": [
+          19.716884,
+          2.859104
+        ],
+        "G1": [
+          33.72745,
+          1.008961
+        ],
+        "H1": [
+          34.017255,
+          15.014423
+        ],
+        "G2": [
+          33.513219,
+          27.164208
+        ],
+        "H2": [
+          20.301985,
+          27.418909
+        ],
+        "G3": [
+          6.32913,
+          27.380562
+        ],
+        "H3": [
+          8.128217,
+          16.00012
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.53930275883494
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.53930275883494
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.86072051918359
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.03725778939441
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.03069601328042
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 10.338697546317892
+        }
+      ]
+    },
+    {
+      "sample_id": 95,
+      "seed": 20261112,
+      "layout_config": {
+        "G0": [
+          6.49484,
+          2.445707
+        ],
+        "H0": [
+          19.828948,
+          3.605782
+        ],
+        "G1": [
+          33.745883,
+          2.461614
+        ],
+        "H1": [
+          34.737316,
+          14.148831
+        ],
+        "G2": [
+          34.190624,
+          28.204771
+        ],
+        "H2": [
+          21.019341,
+          27.409409
+        ],
+        "G3": [
+          6.564841,
+          28.644862
+        ],
+        "H3": [
+          7.977462,
+          15.294466
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 3.5363032459422246
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 3.5363032459422246
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 6.522914761596783
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 6.562742169064472
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 6.63305298347605
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 7.002013217428137
+        }
+      ]
+    },
+    {
+      "sample_id": 96,
+      "seed": 20261113,
+      "layout_config": {
+        "G0": [
+          7.506362,
+          2.310822
+        ],
+        "H0": [
+          20.875972,
+          4.497675
+        ],
+        "G1": [
+          32.590776,
+          1.373709
+        ],
+        "H1": [
+          33.997436,
+          14.276145
+        ],
+        "G2": [
+          32.209845,
+          27.117113
+        ],
+        "H2": [
+          19.187722,
+          27.525592
+        ],
+        "G3": [
+          5.351211,
+          27.352295
+        ],
+        "H3": [
+          7.915318,
+          15.46333
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 6.983252572480448
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 6.983252572480448
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 8.784649279556808
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 10.593772066534855
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 11.07700959405913
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 11.322202447911925
+        }
+      ]
+    },
+    {
+      "sample_id": 97,
+      "seed": 20261114,
+      "layout_config": {
+        "G0": [
+          6.391828,
+          1.461254
+        ],
+        "H0": [
+          19.285402,
+          3.607078
+        ],
+        "G1": [
+          32.621147,
+          2.201909
+        ],
+        "H1": [
+          33.374931,
+          14.897172
+        ],
+        "G2": [
+          33.471115,
+          27.831709
+        ],
+        "H2": [
+          20.822226,
+          27.870171
+        ],
+        "G3": [
+          6.203282,
+          26.789132
+        ],
+        "H3": [
+          7.753324,
+          15.28582
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 5.583306065224504
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 5.583306065224504
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.432889330050111
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.524113375661042
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 8.997251136726666
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.594721573888084
+        }
+      ]
+    },
+    {
+      "sample_id": 98,
+      "seed": 20261115,
+      "layout_config": {
+        "G0": [
+          7.171433,
+          2.281582
+        ],
+        "H0": [
+          21.801794,
+          2.939431
+        ],
+        "G1": [
+          33.63308,
+          2.839959
+        ],
+        "H1": [
+          35.062067,
+          15.098231
+        ],
+        "G2": [
+          32.560442,
+          26.432267
+        ],
+        "H2": [
+          20.30768,
+          28.813754
+        ],
+        "G3": [
+          6.943543,
+          25.758483
+        ],
+        "H3": [
+          7.421032,
+          13.970388
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 10.218073579525921
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 10.218073579525921
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 10.947980807097803
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 12.108241067640577
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 12.57572642197377
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 13.079117164915024
+        }
+      ]
+    },
+    {
+      "sample_id": 99,
+      "seed": 20261116,
+      "layout_config": {
+        "G0": [
+          6.566923,
+          1.606312
+        ],
+        "H0": [
+          21.398048,
+          2.260117
+        ],
+        "G1": [
+          33.459239,
+          2.890663
+        ],
+        "H1": [
+          34.190798,
+          14.91015
+        ],
+        "G2": [
+          33.799708,
+          28.066554
+        ],
+        "H2": [
+          20.283924,
+          28.665151
+        ],
+        "G3": [
+          7.482147,
+          26.868145
+        ],
+        "H3": [
+          7.448432,
+          14.802563
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 7.033077728545589
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 7.033077728545589
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 7.677986763488032
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 7.933535813913544
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 8.09957033602093
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 9.054470164536765
+        }
+      ]
+    },
+    {
+      "sample_id": 100,
+      "seed": 20261117,
+      "layout_config": {
+        "G0": [
+          6.664858,
+          2.275641
+        ],
+        "H0": [
+          20.204672,
+          3.355778
+        ],
+        "G1": [
+          33.248482,
+          2.47506
+        ],
+        "H1": [
+          36.464223,
+          14.576233
+        ],
+        "G2": [
+          32.823715,
+          26.312557
+        ],
+        "H2": [
+          19.701309,
+          26.261933
+        ],
+        "G3": [
+          6.993982,
+          26.438731
+        ],
+        "H3": [
+          8.648766,
+          13.805212
+        ]
+      },
+      "predicted_label": 1,
+      "nearest_reference": {
+        "filename": "heat_analysis_v1.json",
+        "label": 1,
+        "distance": 10.808151936499597
+      },
+      "neighbor_rankings": [
+        {
+          "filename": "heat_analysis_v1.json",
+          "label": 1,
+          "distance": 10.808151936499597
+        },
+        {
+          "filename": "heat_analysis_v3.json",
+          "label": 1,
+          "distance": 13.438239598116484
+        },
+        {
+          "filename": "heat_analysis_v4.json",
+          "label": 1,
+          "distance": 13.532245310019054
+        },
+        {
+          "filename": "heat_analysis_v2.json",
+          "label": 0,
+          "distance": 14.9258778360743
+        },
+        {
+          "filename": "heat_analysis_v5.json",
+          "label": 0,
+          "distance": 15.218416034884427
+        }
+      ]
+    }
+  ]
+}
